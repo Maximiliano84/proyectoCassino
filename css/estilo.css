@@ -22,7 +22,7 @@
     
     header {
         position: relative;
-        background-color: aquamarine;
+        background-image: linear-gradient(to right, blue, rgb(157, 252, 247));
         height: 15vh;
         width: 100vw;
     }
@@ -98,6 +98,11 @@
     img {
         width: 80%;
         height: 80%;
+        box-shadow: 0px 0px 19px 3px rgba(19, 7, 120, 0.88);
+    }
+    
+    .img-main:hover {
+        box-shadow: 0px 0px 19px 3px rgba(235, 234, 240, 0.88);
     }
     
     p {
@@ -130,7 +135,7 @@
     /* footer */
     
     footer {
-        background-color: aquamarine;
+        background-image: linear-gradient(to right, blue, rgb(157, 252, 247));
         padding: 1.5rem;
         margin-top: 2rem;
         text-align: center;
